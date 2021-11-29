@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+.table-data{
+  display: block;
+  text-align: center;
+  margin-left: 100px;
+  
+}
+.table-data table{
+  
+  display: grid;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-data table thead{
+  display: flex;
+  
+  
+  justify-content: space-around;
+  
+}
+.table-data table thead th{
+  padding: 20px 30px 20px 50px;
+}
+.table-data tbody td{
+  padding: 20px 20px 20px 40px;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.table-data tbody td:first-child{
+  
+  border-left: none;
+}
+.button {
+  color: black;
+  background-color: white
+}
+.button:hover {
+  color: white;
+  background-color: black
+}
+
+.table-data table tbody{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  
+  
+}
+.inputs {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: block;
+  text-align: center;
+  
+
+}
+
+.editor{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.btns{
+  padding-top: 20px;
+}
+.select{
+  width: 200px;
+  height: 30px;
+}
+.colorik a{
+  text-decoration: none;
+  margin: 0;
+  
+}
+.cancel a{
+  text-decoration: none;
+  color:black;
+}
+.cancel a:hover{
+  text-decoration: none;
+  color:white;
+}
+.dropdown{
+  text-align: justify;
+}
+.userName{
+  padding-right: 10px;
+  margin-top: 12px;
+}
+.me-auto  a{
+  text-decoration: none !important;
+  color: white;
+}
+.me-auto a:hover{
+  text-decoration: none !important;
+  color: white;
+}
+
+
